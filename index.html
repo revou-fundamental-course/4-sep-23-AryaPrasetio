@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Matematik</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/revo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <h1>Luas Persegi</h1>
+    </header>
+    <div class="container">
+      <div class="sumbu">
+        <h4 class="sumbu1">A</h4>
+        <h4 class="sumbu2">B</h4>
+      </div>
+      <div class="kotak"></div>
+      <div class="sumbu">
+        <h4 class="sumbu1">D</h4>
+        <h4 class="sumbu2">C</h4>
+      </div>
+      <h4 class="bujur_sangkar">Bujur Sangkar</h4>
+      <div class="Rumus_Luas_Persegi">
+        <h4>Rumus Luas Persegi yaitu :</h4>
+        <h4 class="rumus">L = S x S</h4>
+        <h4>Dimana :</h4>
+        <h4>L = Luas</h4>
+        <h4>S = Sisi</h4>
+      </div>
+    </div>
+    <hr />
+    <div class="container">
+      <div class="Hitung_Luas_Persegi">
+        <h4>Hitung Luas Persegi</h4>
+      </div>
+      <form action="">
+        <input type="number" id="inputRH" onclick="InputRH(value)" placeholder="Enter The Formula" />
+      </form>
+      <h4>L = S x S</h4>
+      <h4>L = 40 x 40</h4>
+      <h4>L = 1600</h4>
+      <button class="btn btn_hitung" id="hitung" onclick="Hitung()">Hitung</button>
+      <button class="btn btn_reset" id="reset" onclick="Reset()">Reset</button>
+    </div>
+    <footer>
+      <p>Created by <a href="https://www.instagram.com/aryaprasetyo16/">Muhammad Arya Prasetio</a></p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
